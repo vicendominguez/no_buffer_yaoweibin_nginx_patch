@@ -9,7 +9,7 @@ Tengine (https://github.com/alibaba/tengine) is a web server originated by Taoba
 
 At the moment, it is not possible avoid the buffering in the POST requests in NGINX. If you are working uploading large files to a backend, you know i am meaning.
 
-Tengine has a patch (yaoweibin?) to solve it and it appears like a feature in its webpage: http://tengine.taobao.org/
+Tengine has a patch (yaoweibin?) to solve it and it appears as a feature in its webpage: http://tengine.taobao.org/
 
     * Sends unbuffered upload directly to HTTP and FastCGI backend servers, which saves disk I/Os.
 
