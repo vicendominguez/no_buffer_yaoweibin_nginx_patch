@@ -17,3 +17,13 @@ There is a pending ticket to Nginx team requesting that: http://trac.nginx.org/n
 http://forum.nginx.org/read.php?2,253626,253705#msg-253705
 
 Finally, i chose to adapt the yaoweibin's patches (http://yaoweibin.cn/patches/) to the 1.7.6 nginx version.
+
+New configuration parameters
+============================
+
+the most important are:
+
+     client_body_postpone_size 0;
+     proxy_request_buffering off;
+     
+:)
