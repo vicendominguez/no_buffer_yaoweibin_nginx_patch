@@ -1,6 +1,10 @@
 no_buffer_yaoweibin_nginx_patch
 ===============================
 
+There is a complete description of this [here](http://vicendominguez.blogspot.com.es/2014/10/avoiding-nginx-buffers-request-of-body.html).
+
+##Summary
+
 This is my fast adaptation of the yaoweibin's no_buffer patch to the new nginx releases.
 
 Weibin Yao (yaoweibin) is a motu working in the tengine project: https://github.com/yaoweibin 
@@ -18,12 +22,15 @@ http://forum.nginx.org/read.php?2,253626,253705#msg-253705
 
 Finally, i chose to adapt the yaoweibin's patches (http://yaoweibin.cn/patches/) to the 1.7.6 nginx version.
 
-New configuration parameters
-============================
+##New configuration options
 
-the most important are:
+The new options in the conf file are:
 
-     client_body_postpone_size 0;
-     proxy_request_buffering off;
+ * client_body_buffers
+ * client_body_postpone_size
+ * proxy_request_buffering
+ * fastcgi_request_buffering
+
+The description of this new options is in this tengine page: http://tengine.taobao.org/document/http_core.html
      
 :)
