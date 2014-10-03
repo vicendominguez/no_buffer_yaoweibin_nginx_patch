@@ -3,7 +3,7 @@ no_buffer_yaoweibin_nginx_patch
 
 This is my fast adaptation of the yaoweibin's no_buffer patch to the new nginx releases.
 
-Weibin Yao (yaoweibin) is a motu working in the tengine project. 
+Weibin Yao (yaoweibin) is a motu working in the tengine project: https://github.com/yaoweibin 
 
 Tengine (https://github.com/alibaba/tengine) is a web server originated by Taobao, the largest e-commerce website in Asia. It is based on the Nginx HTTP server and has many advanced features. Tengine has proven to be very stable and efficient on some of the top 100 websites in the world, including taobao.com and tmall.com 
 
