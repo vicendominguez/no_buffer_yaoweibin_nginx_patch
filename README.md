@@ -34,3 +34,8 @@ The new options in the conf file are:
 The description of this new options is in this tengine page: http://tengine.taobao.org/document/http_core.html
      
 :)
+
+
+## CentOS 6 RPM
+
+There is a CentOS 6 RPM here: http://repo.enetres.net/repoview/nginx.html
