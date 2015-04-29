@@ -1,5 +1,6 @@
 no_buffer_yaoweibin_nginx_patch
 ===============================
+UPDATE: nginx > 1.7.11 supports no_buffering.
 
 There is a complete description of this [here](http://vicendominguez.blogspot.com.es/2014/10/avoiding-nginx-buffers-request-of-body.html).
 
